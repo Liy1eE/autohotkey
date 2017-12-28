@@ -7,6 +7,8 @@ Caps 键与 Shift 键功能重复，因此可以利用 Caps 组合其它键实�
 ![](keyboard-layout.png)
 
 ## 使用
+下载后免安装直接可用，建议添加到开机启动，win10 将软件放到文件夹`%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`下即可。
+
 未完待续
 
 ## 下载

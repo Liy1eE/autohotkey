@@ -6,5 +6,8 @@ Caps 键与 Shift 键功能重复，因此可以利用 Caps 组合其它键实�
 ## 功能
 ![](keyboard-layout.png)
 
+## 使用
+未完待续
+
 ## 下载
 [CapsLock](https://raw.githubusercontent.com/Liy1eE/capslock/master/CapsLock.exe)

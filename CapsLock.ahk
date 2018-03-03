@@ -75,7 +75,6 @@ CapsLock & q::Send ^q
 CapsLock & r::Send ^r
 CapsLock & g::Send !g
 CapsLock & f::Send !f
-!4::Send !{F4}
 
 ;o===================Disable=====================o
 ;CapsLock & a::return ;【Second←】

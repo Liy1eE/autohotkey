@@ -72,6 +72,7 @@ CapsLock & p::Send {Del}
 
 ;o===================Others======================o
 CapsLock & q::Send ^q
+CapsLock & e::Send ^e
 CapsLock & r::Send ^r
 CapsLock & g::Send !g
 CapsLock & f::Send !f
@@ -81,7 +82,7 @@ CapsLock & f::Send !f
  CapsLock & b::return ;
  CapsLock & c::return ;
 ;CapsLock & d::return ;【Second→】
- CapsLock & e::return ;
+;CapsLock & e::return ;【Ctrl+E】
 ;CapsLock & f::return ;【Alt+F】
 ;CapsLock & g::return ;【Alt+G】
 ;CapsLock & h::return ;【PgDn】

@@ -71,20 +71,19 @@ CapsLock & `;::Send {BS}
 CapsLock & p::Send {Del}
 
 ;o===================Others======================o
-CapsLock & q::Send ^q
-CapsLock & e::Send ^e
-CapsLock & r::Send ^r
-CapsLock & g::Send !g
-CapsLock & f::Send !f
+CapsLock & q::Send +^{N}
+CapsLock & r::Send ^w
+CapsLock & f::Send +{F12}
+CapsLock & g::Send {F12}
 
 ;o===================Disable=====================o
 ;CapsLock & a::return ;【Second←】
  CapsLock & b::return ;
  CapsLock & c::return ;
 ;CapsLock & d::return ;【Second→】
-;CapsLock & e::return ;【Ctrl+E】
-;CapsLock & f::return ;【Alt+F】
-;CapsLock & g::return ;【Alt+G】
+;CapsLock & e::return ;
+;CapsLock & f::return ;【Shift+F12】
+;CapsLock & g::return ;【F12】
 ;CapsLock & h::return ;【PgDn】
 ;CapsLock & i::return ;【First↑】
 ;CapsLock & j::return ;【First←】
@@ -94,8 +93,8 @@ CapsLock & f::Send !f
  CapsLock & n::return ;
 ;CapsLock & o::return ;【End】
 ;CapsLock & p::return ;【Delete】
-;CapsLock & q::return ;【Alt+F】
-;CapsLock & r::return ;【Ctrl+R】
+;CapsLock & q::return ;【Ctrl+Shift+N】
+;CapsLock & r::return ;【Ctrl+W】
 ;CapsLock & s::return ;【Second↓】
  CapsLock & t::return ;
 ;CapsLock & u::return ;【Home】

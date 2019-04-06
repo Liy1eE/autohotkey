@@ -7,7 +7,8 @@ Move(key)
 {
 	shiftState := GetKeyState("LShift", "P")
 	altState := GetKeyState("LAlt", "P")
-	ctrlState := GetKeyState("LCtrl", "P")
+	ctrlState := GetKeyState("LCtrl", "P") or GetKeyState("Q", "P")
+	
 	if shiftState and altState and ctrlKey
 	{
 		Send +!^{%key%}
@@ -71,17 +72,17 @@ CapsLock & `;::Send {BS}
 CapsLock & p::Send {Del}
 
 ;o===================Others======================o
-CapsLock & q::Send +^{N}
-CapsLock & r::Send ^w
 CapsLock & f::Send +{F12}
 CapsLock & g::Send {F12}
+CapsLock & r::Send ^w
+CapsLock & n::Send +^{N}
 
 ;o===================Disable=====================o
 ;CapsLock & a::return ;【Second←】
  CapsLock & b::return ;
  CapsLock & c::return ;
 ;CapsLock & d::return ;【Second→】
-;CapsLock & e::return ;
+ CapsLock & e::return ;
 ;CapsLock & f::return ;【Shift+F12】
 ;CapsLock & g::return ;【F12】
 ;CapsLock & h::return ;【PgDn】
@@ -90,10 +91,10 @@ CapsLock & g::Send {F12}
 ;CapsLock & k::return ;【First↓】
 ;CapsLock & l::return ;【First→】
  CapsLock & m::return ;
- CapsLock & n::return ;
+;CapsLock & n::return ;【Ctrl+Shift+N】
 ;CapsLock & o::return ;【End】
 ;CapsLock & p::return ;【Delete】
-;CapsLock & q::return ;【Ctrl+Shift+N】
+ CapsLock & q::return ;【Ctrl State Check】
 ;CapsLock & r::return ;【Ctrl+W】
 ;CapsLock & s::return ;【Second↓】
  CapsLock & t::return ;

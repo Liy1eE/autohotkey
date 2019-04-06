@@ -6,6 +6,17 @@ Caps 键与 Shift 键功能重复，因此可以利用 Caps 组合其它键实�
 ## 功能
 ![](keyboard-layout.png)
 
+ 除上图展示，还有以下快捷键（需要同时修改编辑器快捷键）
+ 
+ `Caps + R` extend selection
+ 
+ `Caps + N` go to file
+ 
+ `Caps + G` navigate to declaration
+ 
+ `Caps + F` back
+ 
+
 ## 使用
 下载后免安装直接可用，建议添加到开机启动，win10 将软件放到文件夹`%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`下即可。
 

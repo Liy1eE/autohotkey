@@ -795,7 +795,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+, disabled-----",
+          "description": "------caps_lock+, to control+shift+up_arrow(idea previous method)-----",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -811,10 +811,19 @@
               ]
             }
           },
+          "to": [
+            {
+              "key_code": "up_arrow",
+              "modifiers": [
+                "control",
+                "shift"
+              ]
+            }
+          ],
           "type": "basic"
         },
         {
-          "description": "------caps_lock+. disabled-----",
+          "description": "------caps_lock+. to control+shift+down_arrow(idea next method)-----",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -830,6 +839,15 @@
               ]
             }
           },
+          "to": [
+            {
+              "key_code": "down_arrow",
+              "modifiers": [
+                "control",
+                "shift"
+              ]
+            }
+          ],
           "type": "basic"
         },
         {

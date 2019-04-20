@@ -215,7 +215,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+i to up arrow------",
+          "description": "------caps_lock+i to up_arrow------",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -268,7 +268,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+q+j to option+left_arrow------",
+          "description": "------caps_lock+q+j to option+left_arrow(idea move caret to previous word)------",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -353,7 +353,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+q+l to option+right_arrow------",
+          "description": "------caps_lock+q+l to option+right_arrow(idea move caret to next word)------",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -404,7 +404,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+n disabled------",
+          "description": "------caps_lock+n to command+shift+o(idea file)------",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -420,6 +420,15 @@
               ]
             }
           },
+          "to": [
+            {
+              "key_code": "o",
+              "modifiers": [
+                "command",
+                "shift"
+              ]
+            }
+          ],
           "type": "basic"
         },
         {
@@ -506,7 +515,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+r to option+up_arrow------",
+          "description": "------caps_lock+r to option+up_arrow(idea extend selection)------",
           "conditions": [
             {
               "name": "caps_lock pressed",

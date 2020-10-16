@@ -75,7 +75,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+c disabled------",
+          "description": "------caps_lock+c to command+/ (Idea default comment line)------",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -91,6 +91,14 @@
               ]
             }
           },
+          "to": [
+            {
+              "key_code": "slash",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "type": "basic"
         },
         {
@@ -118,7 +126,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+e disabled------",
+          "description": "------caps_lock+e to shift+f6 (Idea default rename)------",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -134,10 +142,18 @@
               ]
             }
           },
+          "to": [
+            {
+              "key_code": "f6",
+              "modifiers": [
+                "shift"
+              ]
+            }
+          ],
           "type": "basic"
         },
         {
-          "description": "------caps_lock+f to command+[------",
+          "description": "------caps_lock+f to command+[ (Idea default back)------",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -164,7 +180,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+g to command+b------",
+          "description": "------caps_lock+g to command+b (Idea default go to declaration)------",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -268,7 +284,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+q+j to option+left_arrow(idea move caret to previous word)------",
+          "description": "------caps_lock+q+j to option+left_arrow (Idea default move caret to previous word)------",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -353,7 +369,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+q+l to option+right_arrow(idea move caret to next word)------",
+          "description": "------caps_lock+q+l to option+right_arrow (Idea move caret to next word)------",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -404,7 +420,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+n to command+shift+o(idea file)------",
+          "description": "------caps_lock+n to command+shift+o (Idea default file)------",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -515,7 +531,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+r to option+up_arrow(idea extend selection)------",
+          "description": "------caps_lock+r to option+up_arrow (Idea default extend selection)------",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -566,7 +582,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+t disabled-----",
+          "description": "------caps_lock+t to command+ctrl+u (Idea translation plugin translate)-----",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -582,6 +598,15 @@
               ]
             }
           },
+          "to": [
+            {
+              "key_code": "u",
+              "modifiers": [
+                "command",
+                "left_control"
+              ]
+            }
+          ],
           "type": "basic"
         },
         {
@@ -609,7 +634,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+v disabled-----",
+          "description": "------caps_lock+v to command+option+l (Idea default reformat code)-----",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -625,6 +650,15 @@
               ]
             }
           },
+          "to": [
+            {
+              "key_code": "l",
+              "modifiers": [
+                "command",
+                "option"
+              ]
+            }
+          ],
           "type": "basic"
         },
         {
@@ -652,7 +686,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+x disabled-----",
+          "description": "------caps_lock+x to ctrl+r (Idea default run)-----",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -668,6 +702,14 @@
               ]
             }
           },
+          "to": [
+            {
+              "key_code": "r",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ],
           "type": "basic"
         },
         {
@@ -795,7 +837,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+, to control+shift+up_arrow(idea previous method)-----",
+          "description": "------caps_lock+, to control+shift+up_arrow (Idea previous method)-----",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -823,7 +865,7 @@
           "type": "basic"
         },
         {
-          "description": "------caps_lock+. to control+shift+down_arrow(idea next method)-----",
+          "description": "------caps_lock+. to control+shift+down_arrow (Idea next method)-----",
           "conditions": [
             {
               "name": "caps_lock pressed",
@@ -867,272 +909,6 @@
               ]
             }
           },
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "⭐Windows Style⭐",
-      "manipulators": [
-        {
-          "description": "------find------",
-          "from": {
-            "key_code": "f",
-            "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "f",
-              "modifiers": [
-                "command"
-              ]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "description": "------save------",
-          "from": {
-            "key_code": "s",
-            "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "s",
-              "modifiers": [
-                "command"
-              ]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "description": "------select all------",
-          "from": {
-            "key_code": "a",
-            "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "a",
-              "modifiers": [
-                "command"
-              ]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "description": "------undo------",
-          "from": {
-            "key_code": "z",
-            "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "z",
-              "modifiers": [
-                "command"
-              ]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "description": "------redo------",
-          "from": {
-            "key_code": "y",
-            "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "y",
-              "modifiers": [
-                "command",
-                "shift"
-              ]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "description": "------cut------",
-          "from": {
-            "key_code": "x",
-            "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "x",
-              "modifiers": [
-                "command"
-              ]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "description": "------copy------",
-          "from": {
-            "key_code": "c",
-            "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "c",
-              "modifiers": [
-                "command"
-              ]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "description": "------paste------",
-          "from": {
-            "key_code": "v",
-            "modifiers": {
-              "mandatory": [
-                "control"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "v",
-              "modifiers": [
-                "command"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "⭐Idea⭐",
-      "manipulators": [
-        {
-          "description": "------option+a to reformat code------",
-          "from": {
-            "key_code": "a",
-            "modifiers": {
-              "mandatory": [
-                "option"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "l",
-              "modifiers": [
-                "command",
-                "option"
-              ]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "description": "------option+q to translate------",
-          "from": {
-            "key_code": "q",
-            "modifiers": {
-              "mandatory": [
-                "option"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "u",
-              "modifiers": [
-                "command",
-                "control"
-              ]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "description": "------option+1 to comment line------",
-          "from": {
-            "key_code": "1",
-            "modifiers": {
-              "mandatory": [
-                "option"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "slash",
-              "modifiers": [
-                "command"
-              ]
-            }
-          ],
           "type": "basic"
         }
       ]
